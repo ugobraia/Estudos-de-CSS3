@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+li{
+    display: inline-block;
+    color: white;
+    background-color: #1B1B1B;
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 30px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+li p{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.selected{
+    background-color: #363636;
+    border: 3px #4e3bda solid;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
