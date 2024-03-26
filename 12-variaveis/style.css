@@ -1,0 +1,31 @@
+:root{
+    --cor-principal: #3c59e7;
+    --cor-claro: #eaeaea;
+    --cor-escuro: #232323;
+    --preenchimento-pequeno: 0.25rem 1rem;
+    --preenchimento-medio: 2rem;
+    --preenchimento-grande: 4rem;
+}
+
+header{
+    background-color: var(--cor-escuro);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pequeno);
+}
+
+section{
+    background-color: var(--cor-claro);
+    padding: var(--preenchimento-medio);
+}
+
+div{
+    background-color: var(--cor-principal);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pequeno);
+}
+
+.red-box{
+    background-color: #f64348;
+    color: #fff;
+    padding: var(--preenchimento-pequeno);
+}
